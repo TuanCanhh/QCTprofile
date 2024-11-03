@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="#093D0B" android:state_enabled="true" android:state_focused="true" /> <!-- Khi có focus -->
+    <item android:color="#A5A5A5" android:state_enabled="true" /> <!-- Khi không có focus -->
+</selector>

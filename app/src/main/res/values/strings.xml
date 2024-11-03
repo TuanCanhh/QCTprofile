@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CEP</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="email">Email</string>
+    <string name="click_to_login">Login now</string>
+    <string name="click_to_signup">Sign up now</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

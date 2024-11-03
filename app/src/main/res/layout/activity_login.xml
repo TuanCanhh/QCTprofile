@@ -1,0 +1,111 @@
+ <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/tren_duoi1"
+    tools:context=".Login">
+
+    <!-- Phần chứa logo -->
+     <ImageView
+         android:id="@+id/imageView5"
+         android:layout_width="198dp"
+         android:layout_height="229dp"
+         android:layout_gravity="center"
+         android:layout_marginTop="70dp"
+         android:src="@drawable/logo_cqct1" />
+
+    <!-- edit text ô Gmail -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxStrokeColor="#145C1E"
+        app:boxStrokeWidth="1dp"
+        android:hint="Gmail">
+<!--        android:layout_margin="20dp"-->
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/gmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:padding="20dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorLink="#145C1E"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- edit text ô Password -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:boxBackgroundMode="outline"
+        app:boxCornerRadiusTopStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxStrokeColor="#145C1E"
+        app:boxStrokeWidth="2dp"
+        android:hint="Password">
+<!--        android:layout_margin="20dp"-->
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="20dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorLink="#145C1E"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Nút đăng nhập -->
+    <Button
+    android:id="@+id/btnlogin"
+    android:layout_width="104dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="24dp"
+        android:layout_margin="20dp"
+    android:backgroundTint="#145C1E"
+    android:text="Login"
+    android:textColor="@android:color/white" />
+
+    <!-- ProgressBar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <!-- Phần liên kết đăng ký -->
+    <TextView
+        android:id="@+id/signupnow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:text="Don't have an account? Sign up here"
+        android:textColor="#064D06"
+        android:textSize="20sp" />
+
+</LinearLayout>

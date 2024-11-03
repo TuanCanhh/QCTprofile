@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "907189086183",
+    "project_id": "asdasd-95691",
+    "storage_bucket": "asdasd-95691.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907189086183:android:be860d7e3a4527a7e17f42",
+        "android_client_info": {
+          "package_name": "com.example.qlct"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvozl5GHRSBbY7ZKSjWfVOe26DelpWl5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
